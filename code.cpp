@@ -5,7 +5,7 @@ int main()
 	int a;
 	std::cout << "Введите ваш возраст: ";
 	std::cin >> a;
-	if (a % 100 > 10 or a % 100 < 20)
+	if (a % 100 > 10 and a % 100 < 20)
 		std::cout << "Вам " << a << " лет";
 	else if ((a == 1) or (a % 10 == 1))
 		std::cout << "Вам " << a << " год";
